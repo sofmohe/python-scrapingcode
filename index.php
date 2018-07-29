@@ -1,1 +1,2 @@
-this file is only for heroku deploy.
+<?php
+echo date("Y/m/d H:i:s");
