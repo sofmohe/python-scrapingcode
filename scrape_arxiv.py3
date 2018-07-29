@@ -2,10 +2,9 @@
 import urllib.request
 import urllib.error
 # from bs4 import BeautifulSoup
-from datetime import datetime
-# from pytz import timezone
-import timezone
 import BeautifulSoup
+from datetime import datetime
+from pytz import timezone
 import re
 import ssl
 #Gmail作成用
