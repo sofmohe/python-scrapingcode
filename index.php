@@ -1,2 +1,3 @@
 <?php
-echo date("Y/m/d H:i:s");
+	date_defaulet_timezone_set('Asia/Tokyo');
+	echo date("Y/m/d H:i:s");
