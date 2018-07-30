@@ -110,6 +110,7 @@ if filter_today in h3_tag:
 		tmp = "【"+str(index+1)+"】"+"Title:"+articleDict['Title']+"\n\n"+"Author:"+articleDict['Authors']+"\n\n"+"Abstract:"+articleDict['Abstract']+"\n\n\n";
 		articles = articles + tmp;
 
+
 	#メールで送信部分
 	fromAddress = 'uyfrom2018@gmail.com';
 	myPassword = 'lbqzniaryzwwjmud';#二段階認証をオンにした後、生成されたアプリパスワードを使用
