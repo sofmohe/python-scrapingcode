@@ -1,7 +1,7 @@
 #スクレイピング用
 import urllib.request
 import urllib.error
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 from datetime import datetime
 from pytz import timezone
 import re
