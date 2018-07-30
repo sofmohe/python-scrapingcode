@@ -67,8 +67,8 @@ soup = htmlAccess(url_recent);
 
 
 #h3タグを日付でフィルタリング
-#filter_today = weekday + ", " + day + " " + month + " " + year;
-filter_today = "Fri, 1 Jun 2018"
+filter_today = weekday + ", " + day + " " + month + " " + year;
+#filter_today = "Fri, 1 Jun 2018"
 h3_tag = soup.h3;
 if filter_today in h3_tag:
 	url_articles = h3_tag.find_next("dl").find_all(href=re.compile("/abs/"));#指定日の論文URLタグを取得
