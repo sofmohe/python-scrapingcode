@@ -1,6 +1,6 @@
 #スクレイピング用
 import sys
-sys.path.append("/Users/yutaueda/Development/Python/Codes/ScrapingCode");
+sys.path.append("/app");
 import myFunc as mf
 import urllib.request
 import urllib.error
