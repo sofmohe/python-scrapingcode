@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/Users/yutaueda/Desktop");
+sys.path.append("/Users/yutaueda/Development/Python/Codes/ScrapingCode");
 import myFunc as mf
 import subprocess
 
@@ -33,10 +33,10 @@ for i, val in enumerate(lines):
 
 
 #スクレイピング部分の実行をログに残す
-fin = open('logScraping.txt', 'w');
-for y in lines:
-	fin.write(y);
-fin.close();
+#fin = open('logScraping.txt', 'w');
+#for y in lines:
+#	fin.write(y);
+#fin.close();
 
 
 

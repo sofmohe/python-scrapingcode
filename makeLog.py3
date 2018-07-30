@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/Users/yutaueda/Desktop");
+sys.path.append("/Users/yutaueda/Development/Python/Codes/ScrapingCode");
 import myFunc as mf
 import os
 from datetime import datetime
